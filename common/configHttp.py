@@ -1,17 +1,17 @@
 import requests
 import json
-
+from common.loginSession import sessionRequest
 
 class RunMain():
 
     def send_post(self, url, data):  # 定义一个方法，传入需要的参数url和data
         # 参数必须按照url、data顺序传入
-        result = requests.post(url=url, json=data).json()  # 如果未做json转换则再转换一次
+        result = sessionRequest.post(url=url, json=data).json()  # 如果未做json转换则再转换一次
         res = json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2)
         return res
 
     def send_get(self, url, data):
-        result = requests.get(url=url, params=data).json()
+        result = sessionRequest.get(url=url, params=data).json()
         res = json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2)
         return res
 

@@ -56,7 +56,7 @@ class testNews(unittest.TestCase):
         check test result
         :return:
         """
-        url1 = url + "/news/getNews"
+        url1 = url + "/todo/getTodoList"
         new_url = url1 + "?" + self.query
         data1 = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(new_url).query))  # 将一个完整的URL中的name=&pwd=转换为{'name':'xxx','pwd':'bbb'}，字典形式form表单
         info = RunMain().run_main(self.method, url1, data1)  # 根据Excel中的method调用run_main来进行requests请求，并拿到响应

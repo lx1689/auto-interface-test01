@@ -22,6 +22,9 @@ class ReadConfig():
         value = config.get('DATABASE', name)
         return value
 
+    def get_login_user(self, name):
+        value = config.get('loginUser', name)
+        return value
 
 if __name__ == '__main__':  # 测试一下，我们读取配置文件的方法是否可用
     print('HTTP中的baseurl值为：', ReadConfig().get_http('baseurl'))

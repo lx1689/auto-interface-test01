@@ -178,9 +178,9 @@
         
     <div class='page-header'>
         <h1>万人万店接口自动化测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2020-04-08 08:44:29</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.730000</p>
-<p class='attribute'><strong>结果:</strong> 通过 2 失败 3</p>
+    <p class='attribute'><strong>开始时间:</strong> 2020-04-09 14:35:09</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.242000</p>
+<p class='attribute'><strong>结果:</strong> 通过 4 失败 1</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>接口测试统计</p></div>
@@ -284,13 +284,12 @@
 
 
 Traceback (most recent call last):
-  File "D:\pycharm\test02\testCase\testUserLogin.py", line 52, in testUserLogin
+  File "C:\Users\Administrator\Documents\auto-interface-test01\testCase\testUserLogin.py", line 52, in testUserLogin
     self.checkResult()
-  File "D:\pycharm\test02\testCase\testUserLogin.py", line 73, in checkResult
+  File "C:\Users\Administrator\Documents\auto-interface-test01\testCase\testUserLogin.py", line 73, in checkResult
     self.assertEqual(ss['message'], '用户不存在或该用户没有注册为')
-AssertionError: '用户不存在或该用户没有注册为卖家' != '用户不存在或该用户没有注册为'
-- 用户不存在或该用户没有注册为卖家
-?               --
+AssertionError: '服务器开小差' != '用户不存在或该用户没有注册为'
+- 服务器开小差
 + 用户不存在或该用户没有注册为
 
 </pre>
@@ -299,64 +298,52 @@ AssertionError: '用户不存在或该用户没有注册为卖家' != '用户不
     </td>
 </tr>
 
-    <tr class='failClass'>
+    <tr class='passClass'>
         <td>paramunittest.testNews_0</td>
         <td>1</td>
-        <td>0</td>
         <td>1</td>
+        <td>0</td>
         <td>0</td>
         <td><a href="javascript:showClassDetail('c4',1)">详情</a></td>
     </tr>
 
-<tr id='ft4.1' class='none'>
-    <td class='failCase'><div class='testcase'>testNews</div></td>
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testNews</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
-        失败</a>
-    <div id='div_ft4.1' class="popup_window">
-        <pre>ft4.1: getSuccess测试开始前准备
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        通过</a>
+    <div id='div_pt4.1' class="popup_window">
+        <pre>pt4.1: getSuccess测试开始前准备
 测试结束，输出log完结
 
 
-Traceback (most recent call last):
-  File "D:\pycharm\test02\testCase\testNews.py", line 48, in testNews
-    self.checkResult()
-  File "D:\pycharm\test02\testCase\testNews.py", line 65, in checkResult
-    self.assertEqual(ss['code'], 200)
-AssertionError: 900 != 200
 </pre>
     </div>
     <!--css div popup end-->
     </td>
 </tr>
 
-    <tr class='failClass'>
+    <tr class='passClass'>
         <td>paramunittest.testNews_1</td>
         <td>1</td>
-        <td>0</td>
         <td>1</td>
+        <td>0</td>
         <td>0</td>
         <td><a href="javascript:showClassDetail('c5',1)">详情</a></td>
     </tr>
 
-<tr id='ft5.1' class='none'>
-    <td class='failCase'><div class='testcase'>testNews</div></td>
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>testNews</div></td>
     <td colspan='5' align='center'>
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.1')" >
-        失败</a>
-    <div id='div_ft5.1' class="popup_window">
-        <pre>ft5.1: getFailure测试开始前准备
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        通过</a>
+    <div id='div_pt5.1' class="popup_window">
+        <pre>pt5.1: getFailure测试开始前准备
 测试结束，输出log完结
 
 
-Traceback (most recent call last):
-  File "D:\pycharm\test02\testCase\testNews.py", line 48, in testNews
-    self.checkResult()
-  File "D:\pycharm\test02\testCase\testNews.py", line 67, in checkResult
-    self.assertEqual(ss['code'], 500)
-AssertionError: 900 != 500
 </pre>
     </div>
     <!--css div popup end-->
@@ -366,8 +353,8 @@ AssertionError: 900 != 500
         <tr id='total_row'>
             <td>总计</td>
             <td>5</td>
-            <td>2</td>
-            <td>3</td>
+            <td>4</td>
+            <td>1</td>
             <td>0</td>
             <td>&nbsp;</td>
         </tr>
@@ -401,8 +388,8 @@ AssertionError: 900 != 500
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:2, name:'通过'},
-                        {value:3, name:'失败'},
+                        {value:4, name:'通过'},
+                        {value:1, name:'失败'},
                         {value:0, name:'错误'}
                     ],
                     itemStyle: {
