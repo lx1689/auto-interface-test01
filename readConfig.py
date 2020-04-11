@@ -2,11 +2,12 @@ import os
 import configparser
 import getpathInfo  # 引入我们自己的写的获取路径的类
 
-path = getpathInfo.get_Path()  # 调用实例化，还记得这个类返回的路径为C:\Users\songlihui\PycharmProjects\dkxinterfaceTest
-config_path = os.path.join(path,'config.ini')  # 这句话是在path路径下再加一级，最后变成C:\Users\songlihui\PycharmProjects\dkxinterfaceTest\config.ini
+path = getpathInfo.get_Path()  # 调用实例化，还记得这个类返回的路径为D:\pycharm\test02
+config_path = os.path.join(path, 'config.ini')  # 这句话是在path路径下再加一级，最后变成D:\pycharm\test02\config.ini
 config = configparser.ConfigParser()  # 调用外部的读取配置文件的方法
 config.read(config_path, encoding='utf-8')
-
+print(path)
+print(config_path)
 
 class ReadConfig():
 
@@ -25,6 +26,7 @@ class ReadConfig():
     def get_login_user(self, name):
         value = config.get('loginUser', name)
         return value
+
 
 if __name__ == '__main__':  # 测试一下，我们读取配置文件的方法是否可用
     print('HTTP中的baseurl值为：', ReadConfig().get_http('baseurl'))

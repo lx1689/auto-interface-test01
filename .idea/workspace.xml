@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222573bc-0559-46c0-87b1-4ef4937c94f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/loginSession.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/configHttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/configHttp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/readConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/report.html" afterDir="false" />
-    </list>
+    <list default="true" id="222573bc-0559-46c0-87b1-4ef4937c94f2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +14,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectId" id="1ZxwRnV7nfL3IaPbcLTuuJMxdBT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,17 +22,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Documents\auto-interface-test01\common" />
+      <recent name="D:\pycharm\test02\common" />
+      <recent name="D:\pycharm\test02\testCase" />
+      <recent name="D:\pycharm\test02" />
     </key>
   </component>
   <component name="RunManager" selected="Python.runAll">
-    <configuration name="configEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MytestRunAll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +45,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configEmail.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\test02\common\MytestRunAll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,28 +54,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="configHttp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/configHttp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="geturlParams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="readExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geturlParams.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testCase.testUserLogin.testUserLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testCase.testNews" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,17 +106,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testCase.testUserLogin.testUserLogin&quot;" />
+      <option name="_new_target" value="&quot;testCase.testNews&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testCase.testNews" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testCase.testNews&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.runAll" />
-        <item itemvalue="Python.configHttp" />
-        <item itemvalue="Python tests.Unittests for testCase.testUserLogin.testUserLogin" />
-        <item itemvalue="Python.configEmail" />
-        <item itemvalue="Python.geturlParams" />
+        <item itemvalue="Python tests.Unittests for testCase.testNews" />
+        <item itemvalue="Python tests.Unittests for testCase.testNews" />
+        <item itemvalue="Python.readExcel" />
+        <item itemvalue="Python.MytestRunAll" />
       </list>
     </recent_temporary>
   </component>
@@ -165,50 +151,54 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1383" y="463" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585794227063">
+    <state x="1383" y="463" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586510907216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1383" y="463" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585794227063" />
-    <state width="1222" height="466" key="DebuggerActiveHint" timestamp="1586228328310">
+    <state x="1383" y="463" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586510907216" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586572022437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1222" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586228328310" />
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586572022437" />
+    <state width="1306" height="466" key="DebuggerActiveHint" timestamp="1586585338299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1306" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586585338299" />
     <state x="879" y="339" key="FileChooserDialogImpl" timestamp="1585900639363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="879" y="339" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585900639363" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1586414109089">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1586585553299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586414109089" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1586414109089">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1586585553299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586414109089" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1586414109088">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1586585553298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586414109088" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1586414109089">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553298" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1586585553299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586414109089" />
-    <state width="1898" height="342" key="GridCell.Tab.1.bottom" timestamp="1586229528256">
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
+    <state width="1898" height="245" key="GridCell.Tab.1.bottom" timestamp="1586585413070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586229528256" />
-    <state width="1898" height="342" key="GridCell.Tab.1.center" timestamp="1586229528256">
+    <state width="1898" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
+    <state width="1898" height="245" key="GridCell.Tab.1.center" timestamp="1586585413070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586229528256" />
-    <state width="1898" height="342" key="GridCell.Tab.1.left" timestamp="1586229528256">
+    <state width="1898" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
+    <state width="1898" height="245" key="GridCell.Tab.1.left" timestamp="1586585413070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586229528256" />
-    <state width="1898" height="342" key="GridCell.Tab.1.right" timestamp="1586229528256">
+    <state width="1898" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
+    <state width="1898" height="245" key="GridCell.Tab.1.right" timestamp="1586585413070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586229528256" />
+    <state width="1898" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
     <state x="600" y="216" key="SettingsEditor" timestamp="1586231248288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,135 +211,75 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="524" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586228496759" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586230108665">
+    <state x="623" y="226" width="672" height="677" key="search.everywhere.popup" timestamp="1586571591951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586230108665" />
+    <state x="623" y="226" width="672" height="677" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586571591951" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/readExcel.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/configHttp.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/configHttp.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/configHttp.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/configHttp.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/configHttp.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCase/testNews.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCase/testNews.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCase/testNews.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/readExcel.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/readExcel.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>575</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>586</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>600</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>613</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>683</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>700</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>721</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>756</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/common/HTMLTestRunner.py</url>
-          <line>580</line>
-          <option name="timeStamp" value="69" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/loginSession.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/runAll.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="70" />
+          <line>33</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/runAll.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testCase/testNews.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testCase/testNews.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/configResult.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/configResult.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/configResult.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="72" />
+          <line>69</line>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/runAll.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="73" />
+          <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/runAll.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="74" />
+          <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self._testMethodDoc" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

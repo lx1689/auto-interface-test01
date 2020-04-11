@@ -1,5 +1,5 @@
-user/testUserLogin
-news/testNews
+#user/testUserLogin
+#news/testNews
 #user/test02case
 #user/test03case
 #user/test04case

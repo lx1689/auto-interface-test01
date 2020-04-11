@@ -3,6 +3,7 @@ import unittest
 
 import ddt
 
+from testCase.testUserLogin import testUserLogin
 from common.configHttp import RunMain
 import paramunittest
 import geturlParams
@@ -13,12 +14,12 @@ import readExcel
 # pythoncom.CoInitialize()
 
 url = geturlParams.geturlParams().get_Url()  # 调用我们的geturlParams获取我们拼接的URL
-login_xls = readExcel.readExcel().get_xls('userLoginCase.xlsx', 'loginTest')
+login_xls = readExcel.readExcel().get_xls('userLoginCase.xlsx', 'vipList')
 
 
 @paramunittest.parametrized(*login_xls)
 # @ddt.ddt
-class testUserLogin(unittest.TestCase):
+class testVipList(unittest.TestCase):
 
     def setParameters(self, case_name, path, query, method, description, returnCode):
         """
@@ -38,7 +39,6 @@ class testUserLogin(unittest.TestCase):
         self.description = str(description)
         self.returnCode = returnCode
 
-
     def setUp(self):
         """
         :return:
@@ -50,11 +50,6 @@ class testUserLogin(unittest.TestCase):
 
     # @ddt.data(*login_xls)
     def testResult(self):  # 断言
-
-        """
-        check test result
-        :return:
-        """
 
         # 用例描述
         url1 = url + self.path

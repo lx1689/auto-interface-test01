@@ -4,10 +4,7 @@ import getpathInfo
 import unittest
 import readConfig
 from common.configEmail import send_email
-from apscheduler.schedulers.blocking import BlockingScheduler
-import pythoncom
-
-# import common.Log
+from BeautifulReport import BeautifulReport
 
 send_mail = send_email()
 path = getpathInfo.get_Path()
@@ -68,16 +65,20 @@ class AllTest:  # 定义一个类AllTest
         :return:
         """
         try:
-            suit = self.set_case_suite()  # 调用set_case_suite获取test_suite
+            # suit = self.set_case_suite()  # 调用set_case_suite获取test_suite
+            suit = unittest.defaultTestLoader.discover(".", pattern="test*.py", top_level_dir=None)
             print('try')
             print(str(suit))
             if suit is not None:  # 判断test_suite是否为空
                 print('if-suit')
                 fp = open(resultPath, 'wb')  # 打开result/20181108/report.html测试报告文件，如果不存在就创建
                 # 调用HTMLTestRunner
-                runner = HTMLTestRunner(stream=fp,title='万人万店接口自动化测试报告', description='接口测试统计' )
-                runner.run(suit)
-                # runner.run(suit, rerun=0, save_last_run=False)
+                # runner = HTMLTestRunner(stream=fp,title='万人万店接口自动化测试报告', description='接口测试统计' )
+                # runner.run(suit)
+                run = BeautifulReport(suit)
+                run.report(description='接口测试统计', filename='万人万店接口自动化测试报告2')
+
+
             else:
                 print("Have no case to test.")
         except Exception as ex:
