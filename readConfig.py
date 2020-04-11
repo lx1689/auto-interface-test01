@@ -16,7 +16,11 @@ class ReadConfig():
         return value
 
     def get_email(self, name):
-        value = config.get('EMAIL', name)
+        value = config.get('outlookEMAIL', name)
+        return value
+
+    def get_qqemail(self, name):
+        value = config.get('qqEMAIL', name)
         return value
 
     def get_mysql(self, name):  # 写好，留以后备用。但是因为我们没有对数据库的操作，所以这个可以屏蔽掉

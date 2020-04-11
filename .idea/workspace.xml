@@ -33,27 +33,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.runAll">
-    <configuration name="MytestRunAll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\pycharm\test02\common\MytestRunAll.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="readExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +75,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for configQQmail.TestStringMethods" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;configQQmail.TestStringMethods&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for testCase.testNews" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="test02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,15 +115,29 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testCase.testNews&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in configQQmail.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/common/configQQmail.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.runAll" />
+        <item itemvalue="Python tests.Unittests in configQQmail.py" />
+        <item itemvalue="Python tests.Unittests for configQQmail.TestStringMethods" />
         <item itemvalue="Python tests.Unittests for testCase.testNews" />
         <item itemvalue="Python tests.Unittests for testCase.testNews" />
-        <item itemvalue="Python.readExcel" />
-        <item itemvalue="Python.MytestRunAll" />
       </list>
     </recent_temporary>
   </component>
@@ -167,38 +174,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="879" y="339" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585900639363" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1586585553299">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1586589123835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1586585553299">
+    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586589123835" />
+    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1586589123835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1586585553298">
+    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586589123835" />
+    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1586589123835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553298" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1586585553299">
+    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586589123835" />
+    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1586589123835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586585553299" />
-    <state width="1898" height="245" key="GridCell.Tab.1.bottom" timestamp="1586585413070">
+    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586589123835" />
+    <state width="1898" height="245" key="GridCell.Tab.1.bottom" timestamp="1586586677306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
-    <state width="1898" height="245" key="GridCell.Tab.1.center" timestamp="1586585413070">
+    <state width="1898" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586586677306" />
+    <state width="1898" height="245" key="GridCell.Tab.1.center" timestamp="1586586677306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
-    <state width="1898" height="245" key="GridCell.Tab.1.left" timestamp="1586585413070">
+    <state width="1898" height="245" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586586677306" />
+    <state width="1898" height="245" key="GridCell.Tab.1.left" timestamp="1586586677306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
-    <state width="1898" height="245" key="GridCell.Tab.1.right" timestamp="1586585413070">
+    <state width="1898" height="245" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586586677306" />
+    <state width="1898" height="245" key="GridCell.Tab.1.right" timestamp="1586586677306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586585413070" />
+    <state width="1898" height="245" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586586677306" />
     <state x="600" y="216" key="SettingsEditor" timestamp="1586231248288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -226,12 +233,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/runAll.py</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/runAll.py</url>
-          <line>29</line>
+          <line>32</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -261,18 +268,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
-          <line>69</line>
+          <line>67</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
-          <line>72</line>
+          <line>69</line>
           <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCase/testUserLogin.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="148" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

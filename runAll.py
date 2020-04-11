@@ -3,13 +3,16 @@ from HTMLTestRunner import HTMLTestRunner
 import getpathInfo
 import unittest
 import readConfig
-from common.configEmail import send_email
+from common import configQQmail
+# from common.configEmail import send_email
+from common.configQQmail import send_mail
+from common.configQQmail import new_report
 from BeautifulReport import BeautifulReport
 
-send_mail = send_email()
 path = getpathInfo.get_Path()
 report_path = os.path.join(path, 'result')
-on_off = readConfig.ReadConfig().get_email('on_off')
+# on_off = readConfig.ReadConfig().get_email('on_off')
+on_off = readConfig.ReadConfig().get_qqemail('on_off')
 
 
 # log = common.Log.logger
@@ -55,7 +58,6 @@ class AllTest:  # 定义一个类AllTest
         else:
             print('else:')
             return None
-
         return test_suite  # 返回测试集
 
 
@@ -76,30 +78,23 @@ class AllTest:  # 定义一个类AllTest
                 # runner = HTMLTestRunner(stream=fp,title='万人万店接口自动化测试报告', description='接口测试统计' )
                 # runner.run(suit)
                 run = BeautifulReport(suit)
-                run.report(description='接口测试统计', filename='万人万店接口自动化测试报告2')
-
-
+                run.report(description='万人万店接口测试统计', filename='万人万店接口自动化测试报告2')
             else:
                 print("Have no case to test.")
         except Exception as ex:
             print(str(ex))
-            # log.info(str(ex))
-
         finally:
             print("*********TEST END*********")
             # log.info("*********TEST END*********")
             fp.close()
         # 判断邮件发送的开关
         if on_off == 'on':
-            send_mail.outlook()
+            # 测试发送QQ邮件
+            test_path = "C:\\Users\\Administrator\\Documents\\auto-interface-test01"
+            newget_report = new_report(test_path)
+            send_mail(newget_report)
         else:
             print("邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告")
-
-
-# pythoncom.CoInitialize()
-# scheduler = BlockingScheduler()
-# scheduler.add_job(AllTest().run, 'cron', day_of_week='1-5', hour=14, minute=59)
-# scheduler.start()
 
 if __name__ == '__main__':
     AllTest().run()
