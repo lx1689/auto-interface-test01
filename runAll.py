@@ -39,7 +39,7 @@ class AllTest:  # 定义一个类AllTest
 
     def set_case_suite(self):
         """
-        :return:
+        :return: 通过遍历caselist确定应该执行的case
         """
         self.set_case_list()  # 通过set_case_list()拿到caselist元素组
         test_suite = unittest.TestSuite()
@@ -67,8 +67,8 @@ class AllTest:  # 定义一个类AllTest
         :return:
         """
         try:
-            # suit = self.set_case_suite()  # 调用set_case_suite获取test_suite
-            suit = unittest.defaultTestLoader.discover(".", pattern="test*.py", top_level_dir=None)
+            suit = self.set_case_suite()  # 只执行set_case_suite方法中返回的应该执行的case
+            # suit = unittest.defaultTestLoader.discover(".", pattern="test*.py", top_level_dir=None) #执行所有test开头的case
             print('try')
             print(str(suit))
             if suit is not None:  # 判断test_suite是否为空
@@ -90,7 +90,7 @@ class AllTest:  # 定义一个类AllTest
         # 判断邮件发送的开关
         if on_off == 'on':
             # 测试发送QQ邮件
-            test_path = "C:\\Users\\Administrator\\Documents\\auto-interface-test01"
+            test_path = os.getcwd()  # "D:\\pycharm\\test02\\"
             newget_report = new_report(test_path)
             send_mail(newget_report)
         else:
